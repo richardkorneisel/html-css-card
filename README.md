@@ -1,58 +1,68 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Homework Template
+# Build a Card UI Element
 
-Use this template to structure your READMEs for diagnostics.
-
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)).
+Using HTML and CSS, build out a UI card based on the provided mock-up
 
 ## Prerequisites
 
-* Topics with which developers should be familiar with.
-* Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-  Sass, I would **not** need to include CSS as a prerequisite.
-* [Links to previous materials](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-  are often useful.
-* In a challenge, it is useful to link to reference material, such as talk
-  repositories.
+* Semantic HTML
+* Including an external CSS file
+* Writing styleing rules in CSS
 
 ## Instructions
 
 1. Fork and clone this repository.
 1. Change into the new directory.
-1. Install dependencies.
 1. Fulfill the listed requirements.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). You are
-required to turn in your submission by making a pull request on the original
-repository.
-
-Unless otherwise specified on the calendar or by an instructor, homework is due
-the next morning by 9:00am.
+Starter code is available in [`lib/`](lib/). You are not required to turn in
+your submission.
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
+The "card" is a common user interface element that you will see on many
+webpages. A designer has given you one to build:
 
-## Bonus
+![Card UI Element](assets/card.png)
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
+### Part 1: Structure
 
-Less experienced students should be able to complete the base requirements in
-the alloted time for labs and in around 2 hours for homework; more experienced
-students should be to complete the bonus.
+Working on your own or in a pair, work through the same steps from above:
 
-Sometimes, we ask questions that promote thinking critically about code.
+1. Create a wireframe of the card
+1. Create an outline for our HTML from your wireframe
+1. Create a new folder in your `sandbox` with an `index.html` file in it
+1. Build out the skeleton HTML inside `index.html`
+1. Fill in the `body` element with the HTML for your card
 
-## Plagiarism
+### Part 2: Styling
 
-Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
+Create a stylesheet inside the `lib/` directory and include it in your
+`index.html`. Write the CSS rules needed to style the card so that it looks like
+the one in the mock-up.
+
+Note, you may have to research some declarations! Here are three really good CSS
+references:
+
+1. [cssreference.io](https://cssreference.io/)
+1. [MDN CSS Properties
+   Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+1. [Codrops CSS Reference](https://tympanus.net/codrops/css_reference/)
+
+## Bonus: Naming CSS classes
+
+Knowing what to name your CSS classes is tricky. You want something memorable
+and semantic, but you also don't want to waste a lot of time coming up with
+names for things. Because this is such a common problem, developers have come up
+with conventions for how they name their CSS classes. One of the best and most
+used conventions is called **BEM**, which stands for block, element, modifier.
+
+Read the following two blog posts about BEM and then update your card to use the
+BEM syntax.
+
+1. [MindBEMding – getting your head 'round BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+1. [BEM 101](https://css-tricks.com/bem-101/)
 
 ## [License](LICENSE)
 
