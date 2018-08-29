@@ -24,7 +24,7 @@ your submission.
 The "card" is a common user interface element that you will see on many
 webpages. A designer has given you one to build:
 
-![Card UI Element](assets/card.png)
+![Card UI Element](lib/card.png)
 
 ### Part 1: Structure
 
