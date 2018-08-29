@@ -36,6 +36,8 @@ Working on your own or in a pair, work through the same steps from above:
 1. Build out the skeleton HTML inside `index.html`
 1. Fill in the `body` element with the HTML for your card
 
+> Note, the image comes from [Unsplash](https://unsplash.com/)
+
 ### Part 2: Styling
 
 Create a stylesheet inside the `lib/` directory and include it in your
