@@ -32,7 +32,7 @@ Working on your own or in a pair, work through the same steps from above:
 
 1. Create a wireframe of the card
 1. Create an outline for our HTML from your wireframe
-1. Create a new folder in your `sandbox` with an `index.html` file in it
+1. Create an `index.html` inside the `lib/` directory
 1. Build out the skeleton HTML inside `index.html`
 1. Fill in the `body` element with the HTML for your card
 
