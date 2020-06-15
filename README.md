@@ -16,8 +16,7 @@ Using HTML and CSS, build out a UI card based on the provided mock-up
 1. Change into the new directory.
 1. Fulfill the listed requirements.
 
-Starter code is available in [`lib/`](lib/). You are not required to turn in
-your submission.
+Starter code is available in [`lib/`](lib/). You are required to turn in this lab by 9:00am tomorrow morning.
 
 ## Requirements
 
