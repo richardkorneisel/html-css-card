@@ -8,7 +8,7 @@ Using HTML and CSS, build out a UI card based on the provided mock-up
 
 * Semantic HTML
 * Including an external CSS file
-* Writing styleing rules in CSS
+* Writing styling rules in CSS
 
 ## Instructions
 
